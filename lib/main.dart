@@ -30,7 +30,12 @@ final ThemeData ticketBookingTheme=ThemeData(
           appBarTheme:const AppBarTheme(
             color: Color(0xFF140A23),
             elevation: 0,
-            foregroundColor: Color(0xFF0F0F0F),
+            foregroundColor: Colors.white,
+          ),
+          bottomNavigationBarTheme: const BottomNavigationBarThemeData(
+            backgroundColor: Color(0xFF8D5C94),
+            selectedItemColor: Color(0xFFE42666),
+            unselectedItemColor: Colors.white
           ),
           floatingActionButtonTheme: const FloatingActionButtonThemeData(
             backgroundColor: Color(0xFFE42666),
