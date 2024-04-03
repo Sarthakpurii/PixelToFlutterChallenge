@@ -30,11 +30,11 @@ class _TicHomeScreenState extends State<TicHomeScreen> {
             children: [
               Text(
                 "Hello Sarthak",
-                style: GoogleFonts.mulish(fontSize: 26),
+                style: GoogleFonts.lato(fontSize: 26),
               ),
               Text(
                 "Book Your Favorite Movie",
-                style: GoogleFonts.mulish(fontSize: 14, color: Colors.white60),
+                style: GoogleFonts.lato(fontSize: 14, color: Colors.white60),
               )
             ],
           ),
